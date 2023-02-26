@@ -43,6 +43,7 @@ public class Nature {
 
 
         System.out.println(nature.countColor("black"));
+        System.out.println(nature.countColor("green"));
 
 
            }
