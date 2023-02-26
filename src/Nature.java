@@ -31,10 +31,10 @@ public class Nature {
     public static void main(String[] args) {
         Nature nature = new Nature();
 
-        Cat schnurrsula = new Cat("black",2,"Schnurrsula");
-        Dog bellatrix = new Dog("black",2,"Bellatrix");
-        Frog quaxi = new Frog("green",2,"Quaxi");
-        Bird birb = new Bird("yellow",2,"birb");
+        Cat schnurrsula = new Cat("black", 2, "Schnurrsula");
+        Dog bellatrix = new Dog("black", 2, "Bellatrix");
+        Frog quaxi = new Frog("green", 2, "Quaxi");
+        Bird birb = new Bird("yellow", 2, "birb");
 
         nature.addAnimal(schnurrsula);
         nature.addAnimal(bellatrix);
@@ -46,5 +46,5 @@ public class Nature {
         System.out.println(nature.countColor("green"));
 
 
-           }
+    }
 }
