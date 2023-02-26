@@ -1,3 +1,5 @@
+package org.campus02.animals;
+
 public class AnimalsDemo {
     public static void main(String[] args) {
         Frog quaxi = new Frog("green",2,"Quaxi");
