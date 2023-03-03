@@ -5,9 +5,13 @@ public class AnimalsDemo {
         Frog quaxi = new Frog("green",2,"Quaxi");
         Animal quaxiAsAnimal = (Animal) quaxi;
         Frog quaxiAsFrog = (Frog) quaxiAsAnimal;
+        quaxi.makeNoise();
+        quaxi.walk();
 
         Cat schnurrsula = new Cat("grey",2,"Schnurrsula");
         Animal schnurrsulaAsAnimal = (Animal) schnurrsula;
         Cat schnurrsulaAsCat = (Cat) schnurrsulaAsAnimal;
+        schnurrsula.makeNoise();
+        schnurrsula.walk();
     }
 }

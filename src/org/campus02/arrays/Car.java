@@ -49,6 +49,17 @@ public class Car {
         }
     }
 
+    public int compareTo(Car other) {
+        if (this.productionYear == other.productionYear) {
+            return 0;
+        }
+
+        if (this.productionYear < other.productionYear) {
+            return -1;
+        } else return +1;
+
+    }
+
     @Override
     public String toString() {
         return "Car{" +
